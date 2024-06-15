@@ -1,0 +1,60 @@
+﻿@{
+    ViewData["Title"] = "Wycieczki";
+}
+@using TRAVELS.Models;
+@model IEnumerable<Travel>
+<h2>Lista Wycieczek</h2>
+
+<p>
+    <a asp-action="Create">Dodaj nową</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Miejsce docelowe
+            </th>
+            <th>
+                Data wyjazdu
+            </th>
+            <th>
+                Data powrotu
+            </th>
+            <th>
+                Cena
+            </th>
+            <th>
+                Opis
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var travel in Model)
+        {
+            <tr>
+                <td>
+                    @travel.Destination
+                </td>
+                <td>
+                    @travel.DepartureDate.ToShortDateString()
+                </td>
+                <td>
+                    @travel.ReturnDate.ToShortDateString()
+                </td>
+                <td>
+                    @travel.Price.ToString("C")
+                </td>
+                <td>
+                    @travel.Description
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@travel.TravelId">Edytuj</a> |
+                    <a asp-action="Details" asp-route-id="@travel.TravelId">Szczegóły</a> |
+                    <a asp-action="Delete" asp-route-id="@travel.TravelId">Usuń</a> |
+                    <a asp-controller="Reservations" asp-action="Reservations" asp-route-id="@travel.TravelId">Rezerwuj</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

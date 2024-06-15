@@ -1,0 +1,53 @@
+﻿@model List<TRAVELS.ViewModels.ReservationViewModel>
+
+@{
+    ViewData["Title"] = "Show Reservations";
+}
+
+<h1>Show Reservations</h1>
+
+@if (User.IsInRole("Member") || User.IsInRole("Admin"))
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Travel Destination</th>
+                <th>Guide Name</th>
+                <th>Reservation Date</th>
+                <th>Number Of People</th>
+                <th>Additional Info</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var reservation in Model)
+            {
+                <tr>
+                    <td>@reservation.TravelDestination</td>
+                    <td>@reservation.GuideName</td>
+                    <td>@Html.DisplayFor(modelItem => reservation.ReservationDate)</td>
+                    <td>@reservation.NumberOfPeople</td>
+                    <td>@reservation.AdditionalInfo</td>
+                    <td>
+                        <a asp-action="UpdateReservation" asp-route-reservationId="@reservation.ReservationId">Edit</a> |
+                        <a asp-action="DeleteReservations" asp-route-reservationId="@reservation.ReservationId">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <div>
+        <a asp-action="Reservations">Back to List</a>
+    </div>
+}
+else
+{
+    <p>You do not have permission to view this content.</p>
+}
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

@@ -1,0 +1,69 @@
+﻿@model TRAVELS.ViewModels.ReservationViewModel
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Delete Reservation</title>
+</head>
+<body>
+    <h2>Delete Reservation</h2>
+
+    <div>
+        <h4>Are you sure you want to delete this reservation?</h4>
+        <div>
+            <h4>Reservation Details</h4>
+            <hr />
+            <dl class="dl-horizontal">
+                <dt>
+                    @Html.DisplayNameFor(model => model.TravelDestination)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.TravelDestination)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Username)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Username)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.ReservationDate)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.ReservationDate)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.NumberOfPeople)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.NumberOfPeople)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.AdditionalInfo)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.AdditionalInfo)
+                </dd>
+            </dl>
+            @using (Html.BeginForm("Delete", "Reservations", FormMethod.Post))
+            {
+                @Html.AntiForgeryToken()
+                @Html.Hidden("ReservationId", Model.ReservationId)
+                <div class="form-actions no-color">
+                    <input type="submit" value="Delete" class="btn btn-default" />
+                    @Html.ActionLink("Cancel", "ShowReservations", "Reservations", null, new { @class = "btn btn-default" })
+                </div>
+            }
+        </div>
+    </div>
+</body>
+</html>

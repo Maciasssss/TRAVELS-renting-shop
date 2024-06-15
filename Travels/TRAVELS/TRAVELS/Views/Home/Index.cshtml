@@ -1,0 +1,37 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@using TRAVELS.Models;
+@model List<Travel>
+
+<h1 style="text-align:center">Lista Wycieczek</h1>
+
+<div style="display: flex; justify-content: space-around;">
+    <div>
+        <h2 style="text-align:center">Wycieczka do Paryża</h2>
+        <ul>
+           
+                <li>
+                    <img src="~/Paryż.jpg" alt="@Model[0].Destination" style="max-width: 400px; max-height: 400px;">
+                    <h3>@Model[0].Destination</h3>
+                    <p>@Model[0].Description</p>
+                        <a class="szczegoly" asp-controller="home" asp-action="Details" asp-route-id="@Model[0].TravelId">Wyświetl szczegóły</a>
+                </li>
+            
+        </ul>
+    </div>
+   
+    <div>
+        <h2 style="text-align:center">Wakacje w Rzymie</h2>
+        <ul>
+          
+                <li>
+                    <img src="~/Rzym.jpg" alt="@Model[1].Destination" style="max-width: 400px; max-height: 400px;">
+                    <h3>@Model[1].Destination</h3>
+                    <p>@Model[1].Description</p>
+                        <a class="szczegoly" asp-controller="home" asp-action="Details" asp-route-id="@Model[1].TravelId">Wyświetl szczegóły</a>
+                </li>
+            
+        </ul>
+    </div>
+</div>

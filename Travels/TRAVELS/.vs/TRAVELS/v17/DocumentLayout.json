@@ -1,0 +1,133 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\darth\\Desktop\\TRAVELS\\Travels\\TRAVELS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B8CE4DEE-08E0-46C3-A3B7-2BE9B6FFFECD}|TRAVELS\\TRAVELS.csproj|c:\\users\\darth\\desktop\\travels\\travels\\travels\\travels\\views\\admin\\adminpanel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8CE4DEE-08E0-46C3-A3B7-2BE9B6FFFECD}|TRAVELS\\TRAVELS.csproj|solutionrelative:travels\\views\\admin\\adminpanel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8CE4DEE-08E0-46C3-A3B7-2BE9B6FFFECD}|TRAVELS\\TRAVELS.csproj|c:\\users\\darth\\desktop\\travels\\travels\\travels\\travels\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8CE4DEE-08E0-46C3-A3B7-2BE9B6FFFECD}|TRAVELS\\TRAVELS.csproj|solutionrelative:travels\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8CE4DEE-08E0-46C3-A3B7-2BE9B6FFFECD}|TRAVELS\\TRAVELS.csproj|c:\\users\\darth\\desktop\\travels\\travels\\travels\\travels\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8CE4DEE-08E0-46C3-A3B7-2BE9B6FFFECD}|TRAVELS\\TRAVELS.csproj|solutionrelative:travels\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8CE4DEE-08E0-46C3-A3B7-2BE9B6FFFECD}|TRAVELS\\TRAVELS.csproj|c:\\users\\darth\\desktop\\travels\\travels\\travels\\travels\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8CE4DEE-08E0-46C3-A3B7-2BE9B6FFFECD}|TRAVELS\\TRAVELS.csproj|solutionrelative:travels\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8CE4DEE-08E0-46C3-A3B7-2BE9B6FFFECD}|TRAVELS\\TRAVELS.csproj|c:\\users\\darth\\desktop\\travels\\travels\\travels\\travels\\views\\reservations\\deletereservations.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8CE4DEE-08E0-46C3-A3B7-2BE9B6FFFECD}|TRAVELS\\TRAVELS.csproj|solutionrelative:travels\\views\\reservations\\deletereservations.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8CE4DEE-08E0-46C3-A3B7-2BE9B6FFFECD}|TRAVELS\\TRAVELS.csproj|c:\\users\\darth\\desktop\\travels\\travels\\travels\\travels\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8CE4DEE-08E0-46C3-A3B7-2BE9B6FFFECD}|TRAVELS\\TRAVELS.csproj|solutionrelative:travels\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8CE4DEE-08E0-46C3-A3B7-2BE9B6FFFECD}|TRAVELS\\TRAVELS.csproj|c:\\users\\darth\\desktop\\travels\\travels\\travels\\travels\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8CE4DEE-08E0-46C3-A3B7-2BE9B6FFFECD}|TRAVELS\\TRAVELS.csproj|solutionrelative:travels\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DeleteReservations.cshtml",
+              "DocumentMoniker": "C:\\Users\\darth\\Desktop\\TRAVELS\\Travels\\TRAVELS\\TRAVELS\\Views\\Reservations\\DeleteReservations.cshtml",
+              "RelativeDocumentMoniker": "TRAVELS\\Views\\Reservations\\DeleteReservations.cshtml",
+              "ToolTip": "C:\\Users\\darth\\Desktop\\TRAVELS\\Travels\\TRAVELS\\TRAVELS\\Views\\Reservations\\DeleteReservations.cshtml",
+              "RelativeToolTip": "TRAVELS\\Views\\Reservations\\DeleteReservations.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-04T12:42:12.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\darth\\Desktop\\TRAVELS\\Travels\\TRAVELS\\TRAVELS\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "TRAVELS\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\darth\\Desktop\\TRAVELS\\Travels\\TRAVELS\\TRAVELS\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "TRAVELS\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-04T12:42:11.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\darth\\Desktop\\TRAVELS\\Travels\\TRAVELS\\TRAVELS\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "TRAVELS\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\darth\\Desktop\\TRAVELS\\Travels\\TRAVELS\\TRAVELS\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "TRAVELS\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAowD8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T12:25:04.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminPanel.cshtml",
+              "DocumentMoniker": "C:\\Users\\darth\\Desktop\\TRAVELS\\Travels\\TRAVELS\\TRAVELS\\Views\\Admin\\AdminPanel.cshtml",
+              "RelativeDocumentMoniker": "TRAVELS\\Views\\Admin\\AdminPanel.cshtml",
+              "ToolTip": "C:\\Users\\darth\\Desktop\\TRAVELS\\Travels\\TRAVELS\\TRAVELS\\Views\\Admin\\AdminPanel.cshtml",
+              "RelativeToolTip": "TRAVELS\\Views\\Admin\\AdminPanel.cshtml",
+              "ViewState": "AQIAAKkAAAAAAAAAAAAcwNQAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-04T07:24:00.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\darth\\Desktop\\TRAVELS\\Travels\\TRAVELS\\TRAVELS\\Program.cs",
+              "RelativeDocumentMoniker": "TRAVELS\\Program.cs",
+              "ToolTip": "C:\\Users\\darth\\Desktop\\TRAVELS\\Travels\\TRAVELS\\TRAVELS\\Program.cs",
+              "RelativeToolTip": "TRAVELS\\Program.cs",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAmwKoAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T12:28:17.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\darth\\Desktop\\TRAVELS\\Travels\\TRAVELS\\TRAVELS\\Models\\User.cs",
+              "RelativeDocumentMoniker": "TRAVELS\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\darth\\Desktop\\TRAVELS\\Travels\\TRAVELS\\TRAVELS\\Models\\User.cs",
+              "RelativeToolTip": "TRAVELS\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T12:29:37.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\darth\\Desktop\\TRAVELS\\Travels\\TRAVELS\\TRAVELS\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "TRAVELS\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\darth\\Desktop\\TRAVELS\\Travels\\TRAVELS\\TRAVELS\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "TRAVELS\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAE4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-17T19:31:06.087Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

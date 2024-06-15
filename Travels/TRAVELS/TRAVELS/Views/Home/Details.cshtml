@@ -1,0 +1,10 @@
+﻿@using TRAVELS.Models;
+@model Travel
+
+<h1> Szczegóły Wycieczki </h1>
+
+<p><strong>Miejsce docelowe:</strong> @Model.Destination</p>
+<p><strong>Data wyjazdu:</strong> @Model.DepartureDate.ToShortDateString()</p>
+<p><strong>Data powrotu:</strong> @Model.ReturnDate.ToShortDateString()</p>
+<p><strong>Cena wycieczki:</strong> @Model.Price.ToString("C")</p>
+<p><strong>Opis wycieczki:</strong> @Model.Description</p>
